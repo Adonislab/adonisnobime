@@ -104,7 +104,7 @@ const About = () => {
             optimize your operations, increase your profitability and 
             stimulate your growth.
             </p>
-            <a href="../../assets/CV.pdf" className="btn" >Download CV</a>
+            <a href="https://drive.google.com/file/d/1DGINrgYJEpqeG_QDSRFBixoMQ6vicdND/view?usp=drive_link" target='_blank' className="btn" download>Download CV</a>
           </div>
           <div className="about__skills grid">
 
