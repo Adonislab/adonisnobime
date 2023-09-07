@@ -72,11 +72,11 @@ const Contact = () => {
                   </p> 
                   <span className="skills__number">
                     {inferenceResults[0][0].label === 'positive'
-                      ? '🥰' 
+                      ? 'positive 🥰' 
                       : inferenceResults[0][0].label === 'negative'
-                      ? '😭' 
+                      ? 'negative 😭' 
                       : inferenceResults[0][0].label === 'neutral'
-                      ? '😇' 
+                      ? 'neutral 😇' 
                       : ''}
                   </span>
 
@@ -94,11 +94,11 @@ const Contact = () => {
                     % chances to hire me.</p> 
                   <span className="skills__number">
                     {inferenceResults[0][1].label === 'positive'
-                      ? '🥰' 
+                      ? 'positive 🥰' 
                       : inferenceResults[0][1].label === 'negative'
-                      ? '😭' 
+                      ? 'negative 😭' 
                       : inferenceResults[0][1].label === 'neutral'
-                      ? '😇' 
+                      ? 'neutral 😇' 
                       : ''}
                   </span>
                 </div>
@@ -115,11 +115,11 @@ const Contact = () => {
                     % chances to hire me.</p> 
                   <span className="skills__number">
                     {inferenceResults[0][2].label === 'positive'
-                      ? '🥰' 
+                      ? 'positive 🥰' 
                       : inferenceResults[0][2].label === 'negative'
-                      ? '😭' 
+                      ? 'negative 😭' 
                       : inferenceResults[0][2].label === 'neutral'
-                      ? '😇' 
+                      ? 'neutral 😇' 
                       : ''}
                   </span>
                 </div>
