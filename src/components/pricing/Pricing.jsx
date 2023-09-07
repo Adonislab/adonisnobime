@@ -20,7 +20,7 @@ const Pricing = () => {
           <h3 className="price">
             <em>$</em>25 <span>Hours</span>
           </h3>
-          <a href="" className="btn">Get Started</a>
+          <a href="mailto:nobimetanguy19@gmail.com" className="btn">Get Started</a>
         </div>
 
         <div className="pricing__item best">
@@ -35,7 +35,7 @@ const Pricing = () => {
           <h3 className="price">
             <em>$</em>170 <span>Month</span>
           </h3>
-          <a href="" className="btn">Get Started</a>
+          <a href="mailto:nobimetanguy19@gmail.com" className="btn">Get Started</a>
         </div>
 
         <div className="pricing__item">
@@ -48,7 +48,7 @@ const Pricing = () => {
           <h3 className="price">
             <em>$</em> 35000<span> Year</span>
           </h3>
-          <a href="" className="btn">Get Started</a>
+          <a href="mailto:nobimetanguy19@gmail.com" className="btn">Get Started</a>
         </div>
 
       </div>
