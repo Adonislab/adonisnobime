@@ -11,8 +11,6 @@ const Home = () => {
 
   const liste = [
     "Data scientist.",
-    "Pentester.",
-    "your humble servant.",
   ];
 
   useEffect(() => {
@@ -35,14 +33,14 @@ const Home = () => {
     <section className="home container" id="home">
       
       <div className="intro">
-        <h1 className="home__name">You are welcome  👋 !!!</h1>
+        <h1 className="home__name">You are welcome to my website !</h1>
         <img src={Me} alt="" className="home__img" width={100} height={100}/>
         <h2 className="home__name">NOBIME Tanguy Adonis</h2>
         <h3 className="home__name">I'm  <span className="home__education">{displayedText}</span></h3>
 
         <HeaderSocials/>
 
-        <a href="#contact" className="btn">Test with AI, if you'll hire me</a>
+        <a href="#contact" className="btn">Perform a sentiment analysis test</a>
         <ScrollDown/>
       </div>
     </section>

@@ -46,12 +46,6 @@ const Sidebar = () => {
               </li>
 
               <li className="nav__item">
-                <a href="#pricing" className="nav__link" onClick={() => closeMenu()}>
-                  <span class="icon-diamond"></span>
-                </a>
-              </li>
-
-              <li className="nav__item">
                 <a href="#game" className="nav__link" onClick={() => closeMenu()}>
                   <span class="icon-game-controller"></span>
                 </a>
