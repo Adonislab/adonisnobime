@@ -12,8 +12,8 @@ export function Footer() {
   return (
     <Container className="footer">
       <a href="https://adonisnobime.vercel.app/" className="logo">
-        <span>www.adonis</span>
-        <span>ado</span>
+        <span>adonis</span>
+        <span>nobime</span>
       </a>
       <div>
         <p>
