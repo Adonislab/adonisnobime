@@ -13,6 +13,11 @@ import python from "../../assets/Python.svg.png";
 import rlogo from "../../assets/R_logo.png"; 
 import powerbe from "../../assets/powerbe.jpg"; 
 import sql from "../../assets/SQL.png";
+import excel from "../../assets/excel.png";
+import latex from "../../assets/latex.jpeg"; 
+import notebook from "../../assets/notebook.png"; 
+import octave from "../../assets/octave.jpeg"; 
+import presentation from "../../assets/presentation.png";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -129,6 +134,36 @@ export function About() { //Token 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
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={jsIcon} alt="JavaScript" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={excel} alt="Excel" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={latex} alt="Latex" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={notebook} alt="Notebook" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={octave} alt="Octave" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={presentation} alt="Presentation" />
             </ScrollAnimation>
           </div>
         </div>
