@@ -23,7 +23,7 @@ import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
-export function About() { //Token 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
+export function About() { //Token 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
   return (
     <Container id="about">
       <div className="about-text">

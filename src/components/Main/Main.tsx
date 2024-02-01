@@ -20,6 +20,11 @@ import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import machineLearning from "../../assets/machine_learning.svg";
 import intelligence from "../../assets/intelligence.svg";
+import circuit from "../../assets/circuit.jpeg";
+import cpu from "../../assets/cpu.png";
+import electon from "../../assets/electon.png";
+import gpu from "../../assets/gpu.png";
+import robotic from "../../assets/robotic.png";
 
 export function Main() {
   return (
@@ -216,6 +221,31 @@ export function Main() {
                 },
                 {
                   "src": vueIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": circuit,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": electon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": robotic,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": cpu,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": gpu,
                   "width": 20,
                   "height": 20
                 },
