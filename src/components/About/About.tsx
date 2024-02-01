@@ -18,11 +18,12 @@ import latex from "../../assets/latex.jpeg";
 import notebook from "../../assets/notebook.png"; 
 import octave from "../../assets/octave.jpeg"; 
 import presentation from "../../assets/presentation.png";
+import scala from "../../assets/scala.jpeg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
-export function About() { //Token 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
+export function About() { //Token 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
   return (
     <Container id="about">
       <div className="about-text">
@@ -146,6 +147,12 @@ export function About() { //Token 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
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={latex} alt="Latex" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={scala} alt="Scala" />
             </ScrollAnimation>
           </div>
 
