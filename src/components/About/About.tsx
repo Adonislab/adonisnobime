@@ -9,12 +9,10 @@ import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
-import machineLearning from "../../assets/machine_learning.svg";
-import intelligence from "../../assets/intelligence.svg";
-import python from "../../assets/python.svg";
-import rlogo from "../../assets/R_logo.svg"; 
-import powerbe from "../../assets/powerbe.svg"; 
-import sql from "../../assets/SQL.svg";
+import python from "../../assets/Python.svg.png";
+import rlogo from "../../assets/R_logo.png"; 
+import powerbe from "../../assets/powerbe.jpg"; 
+import sql from "../../assets/SQL.png";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -68,18 +66,6 @@ export function About() { //Token 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
               <img src={rlogo} alt="R logo" />
             </ScrollAnimation>
         </div>
-
-        <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={machineLearning} alt="Machine Learning" />
-            </ScrollAnimation>
-          </div> 
-
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={intelligence} alt="IA" />
-            </ScrollAnimation>
-          </div>
 
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
