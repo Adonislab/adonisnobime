@@ -21,6 +21,7 @@ import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import machineLearning from "../../assets/machine_learning.svg";
 import intelligence from "../../assets/intelligence.svg";
 import circuit from "../../assets/circuit.jpeg";
+import adruino from "../../assets/arduino.jpeg";
 import cpu from "../../assets/cpu.png";
 import electon from "../../assets/electon.png";
 import gpu from "../../assets/gpu.png";
@@ -236,6 +237,11 @@ export function Main() {
                 },
                 {
                   "src": robotic,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": adruino,
                   "width": 20,
                   "height": 20
                 },
