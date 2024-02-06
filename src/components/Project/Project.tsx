@@ -42,21 +42,27 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://madewithluv.in/" target="_blank" rel="noreferrer">
+                <a href="https://predictiondiabete-adonis-nobime.streamlit.app/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>MadeWithLuv - HomeDecor Site</h3>
+              <h3>MadeByAdonis - Diabete Site Prediction</h3>
               <p>
-              This website sells home decor products and helps people decorate their homes. It is easy to find what you need, whether it's furniture or decorations. The site is useful for people who want to make their homes look nice and need some help.
+              I have developed a cutting-edge data science platform designed to simulate diabetes 
+              through advanced machine learning techniques. This innovative system harnesses the 
+              power of machine learning to model and analyze diabetes-related data, providing 
+              valuable insights for research and healthcare applications. Through my expertise in 
+              data science, I have created a powerful tool that contributes to a better 
+              understanding of diabetes, paving the way for enhanced diagnostics and treatment 
+              strategies.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Wordpress</li>
-                <li>Woocommerce</li>
+                <li>Data Analyse</li>
+                <li>Machine Learning</li>
               </ul>
             </footer>
           </div>
